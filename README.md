@@ -3,6 +3,6 @@ Fix small caption buttons in fullscreen mode on Windows 10/11. Yeah, I can't bel
 
 Install by creating a scheduled task under your user account
 
-NOTE: designed for Windows 7 caption button size. If you need to use bigger buttons, you should increase the "CyTopHeight" variable by a few pixels and rebuild.
+NOTE: designed for Windows 7 caption button size. If you need to use bigger buttons, you should increase the "CyTopHeight" variable by a few pixels and rebuild.  This isn't included by default because the more you extend it the more space that can have visual glitches.
 
 ![w](https://user-images.githubusercontent.com/84914212/235566363-9c023c7b-5a7d-463f-a3d1-93f3fe689ad8.png)
