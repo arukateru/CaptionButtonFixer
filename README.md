@@ -1,5 +1,5 @@
 # CaptionButtonFixer
-Fix small caption buttons in fullscreen mode on Windows 10/11. Yeah, I can't believe it either. This is definitely the project that I'm the most proud. The only caveat is that there can be some minor visual glitches in the first few pixels from the top of the program. Also, you will need to use a Windhawk mod to disable programs from extending their frames into client areas to use mspaint, WordPad, and a few other rarely used programs with decent-looking window borders.
+Fix small caption buttons in fullscreen mode on Windows 10/11. Yeah, I can't believe it either. This is definitely the project that I'm the most proud of as of the time of writing this. The only caveat is that there can be some minor visual glitches in the first few pixels from the top of the program. Also, you will need to use a Windhawk mod to disable programs from extending their frames into client areas to use mspaint, WordPad, and a few other rarely used programs with decent-looking window borders.
 
 Install by creating a scheduled task under your user account
 
