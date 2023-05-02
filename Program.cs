@@ -45,7 +45,10 @@ class Program
 
                     if (process.ProcessName.Equals("msedge", StringComparison.OrdinalIgnoreCase) ||
                         process.ProcessName.Equals("mblctr", StringComparison.OrdinalIgnoreCase) ||
-                        process.ProcessName.Equals("explorer", StringComparison.OrdinalIgnoreCase))
+                        process.ProcessName.Equals("explorer", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("winver", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("cmd", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("chrome", StringComparison.OrdinalIgnoreCase))
 
                     {
                         continue;
@@ -55,7 +58,7 @@ class Program
                     IntPtr mainWindowHandle = process.MainWindowHandle;
 
 
-                    MARGINS margins = new MARGINS { cxLeftWidth = 0, cxRightWidth = 0, cyTopHeight = 7, cyBottomHeight = 0 };
+                    MARGINS margins = new MARGINS { cxLeftWidth = 1, cxRightWidth = 1, cyTopHeight = 7, cyBottomHeight = 0 };
                     DwmExtendFrameIntoClientArea(mainWindowHandle, ref margins);
 
                 }
