@@ -48,7 +48,15 @@ class Program
                         process.ProcessName.Equals("explorer", StringComparison.OrdinalIgnoreCase) ||
                         process.ProcessName.Equals("winver", StringComparison.OrdinalIgnoreCase) ||
                         process.ProcessName.Equals("cmd", StringComparison.OrdinalIgnoreCase) ||
-                        process.ProcessName.Equals("chrome", StringComparison.OrdinalIgnoreCase))
+                        process.ProcessName.Equals("chrome", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("chrome", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("iexplore", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("Discord", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("Update", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("msdt", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("DevicePairingWizard", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("DefaultProgramsEditor", StringComparison.OrdinalIgnoreCase) ||
+                        process.ProcessName.Equals("sethc", StringComparison.OrdinalIgnoreCase))
 
                     {
                         continue;
